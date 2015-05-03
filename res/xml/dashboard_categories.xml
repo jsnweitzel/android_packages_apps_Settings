@@ -87,18 +87,7 @@
                 android:icon="@drawable/ic_liquid_theme_settings_teal"
                 />
 
-        <!-- BitSyko Layers App -->
-        <dashboard-tile
-                android:id="@+id/bitsyko_layers"
-                android:icon="@drawable/ic_bitsyko_layers"
-                android:title="@string/bitsyko_layers">
-                <intent
-                    android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.lovejoy777.rroandlayersmanager"
-                    android:targetClass="com.lovejoy777.rroandlayersmanager.menu" />
-        </dashboard-tile>
-
-        <!-- Kernel Auditor App -->
+       <!-- Kernel Auditor App -->
         <dashboard-tile
                 android:id="@+id/kernel_auditor"
                 android:icon="@drawable/ic_liquid_performance_teal"
@@ -107,6 +96,17 @@
                     android:action="android.intent.action.MAIN"
                     android:targetPackage="com.grarak.kerneladiutor"
                     android:targetClass="com.grarak.kerneladiutor.MainActivity" />
+        </dashboard-tile>
+
+         <!-- ViperFX App -->
+        <dashboard-tile
+                android:id="@+id/viper_audio"
+                android:title="@string/viper_settings_title"
+                android:icon="@drawable/ic_settings_viper_teal" >
+                <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android"
+                android:targetPackage="com.vipercn.viper4android_v2" />
         </dashboard-tile>
 
         <!-- Themes -->
